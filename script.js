@@ -1,4 +1,11 @@
-
+function circle() {
+    let circle = document.querySelector('#figure')
+    circle.style.borderRadius = '100%'
+    circle.style.background = 'green'
+    circle.style.transform = 'rotate(0deg)'
+    circle.style.width = '200px'
+    circle.style.height = '200px'
+}
 function square() {
     let square = document.querySelector('#figure')
     square.style.borderRadius = '0'
